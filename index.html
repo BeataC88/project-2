@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Formularz logowania</title>
+	<meta name="description" content="Stwórz wymarzony model swojego samochodu!">
+	<meta name="keywords" content="samochód, katalog, salon, nowe auto">
+	<meta name="author" content="Jan Nowak">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+	
+		<h1>Formularz logowania na blogu</h1>
+
+	</header>
+	
+	<main>
+	
+		<article>
+		
+			<form action="order.php" method="post">
+
+				<div id="container">
+
+				<div id="logowanie">
+
+					
+					<div><label> E-mail <input type="email" placeholder="nick@gmail.com"></label></div>
+					<div><label> Hasło <input type="password"></label></div>
+					<div><input type="submit" value="Zaloguj"></div>
+
+					<div id="rejestr"> Jeśli nie masz jeszcze konta - zarejestruj się! <button> Rejestracja</button></div>
+
+				</div>	
+
+				<div id="ankieta">
+
+					<div><h2>Jeśli masz chwilę czasu - prosimy wypełnij naszą ankietę</h2></div>
+
+					<div class="pytania">
+
+						<fieldset>
+
+							<legend> Jak trafiłeś/aś na bloga? </legend>
+
+							<div><label><input type="checkbox">Przypadkowo</label></div>
+							<div><label><input type="checkbox">Ktoś mi polecił</label></div>
+							<div><label><input type="checkbox">Szukałem/am informacji</label></div>
+						
+						</fieldset>
+					
+						<fieldset>
+
+							<legend> Czy znalezione informacje były przydatne? </legend>
+
+							<div><label><input type="radio" value="1" name="nadwozie" checked>Zdecydowanie tak!</label></div>
+							<div><label><input type="radio" value="2" name="nadwozie">Niezbyt</label></div>
+							<div><label><input type="radio" value="3" name="nadwozie">Tylko niektóre</label></div>
+						
+						</fieldset>
+
+
+						<label>Czy podobał Ci się blog?</label><br/>
+
+						<div style="margin-top:10px;">
+							<select>
+								<option>TAK</option>
+								<option>NIE</option>
+							</select>
+						</div>
+
+					</div>
+
+					<div><input type="submit"></div>
+
+				</div>
+				
+				</div>		
+
+			</form>		
+			
+		</article>
+		
+	</main>
+
+	<footer>Wszelkie prawa zastrzeżone &copy; 2020 Dziękujemy za odwiedziny na naszym blogu! Zapraszamy ponownie! </footer>
+
+</body>
+</html>
